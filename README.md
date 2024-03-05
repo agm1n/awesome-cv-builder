@@ -1,4 +1,5 @@
-# Awesome CV/Resume builder [![wow](https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/awesome-badge.svg)](https://github.com/agm1n/awesome-cv-builder#readme) (React + TypeScript + Vite)
+# Awesome CV/Resume builder (React + TypeScript + Vite) [![wow](https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/awesome-badge.svg)](https://github.com/agm1n/awesome-cv-builder#readme)
+
 Finally, a well-designed, nice-looking resume has appeared with minimal effort to change your own information for publication on your own hosting 🥳 🚀
 
 This template provides setup to get React working in Vite with HMR and some ESLint rules.
@@ -13,7 +14,7 @@ This template provides setup to get React working in Vite with HMR and some ESLi
 - "modal" window  component to show some specific info
 
 ## Usage:
-0. ```git clone REPO && pnpm install```
+0. run ```git clone https://github.com/agm1n/awesome-cv-builder && pnpm install```
 1. change your data in `src/data/cv.json` and own image by path `public/img/avatar.jpg`
 3. create build via start command `pnpm run build`
 4. enjoy results in /dist/index.html
