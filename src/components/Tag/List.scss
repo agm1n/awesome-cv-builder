@@ -1,0 +1,25 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  .tag {
+    align-items: center;
+    background-color: #dbdbdb;
+    border-radius: 4px;
+    color: #4a4a4a;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    margin: 0 0.5rem 0.5rem 0;
+  }
+
+  .active {
+    background-color: #3f63c0;
+    color: white;
+  }
+}

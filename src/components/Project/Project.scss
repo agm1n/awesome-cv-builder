@@ -1,0 +1,105 @@
+.project {
+  padding: 1.4rem;
+  background-color: var(--var-bgcolor);
+  box-shadow: 0 0.5em 1em -0.125em #4a4a4a;
+  max-width: 100%;
+  margin-bottom: 0.8rem;
+  border-radius: 4px;
+  opacity: 0.4;
+  border: 1px dashed #ff7070;
+
+  &.active {
+    opacity: 1;
+    border: none;
+  }
+
+  .project-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    h3, h5 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  h5 {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0;
+  }
+
+  .methodology {
+    vertical-align: super;
+    font-size: 0.6rem;
+  }
+
+  .project-content {
+    div {
+      flex-basis: 100%;
+    }
+
+    & > div {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      width: 12rem;
+      text-align: left;
+      margin: 0;
+    }
+
+    p {
+      width: 100%;
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0.6rem;
+
+    h5 {
+      text-align: center;
+    }
+
+    .project-content > div {
+      flex-direction: column;
+    }
+
+    .project-header {
+      display: block;
+      text-align: center;
+
+      h3, h5 {
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+  @media print {
+    box-shadow: none;
+    opacity: 1;
+    border: none;
+    page-break-inside: avoid;
+    margin: 1.2rem 0 0;
+    padding: 0;
+
+    .project-header {
+      align-items: flex-start;
+    }
+
+    .project-content > div {
+      margin-bottom: .6rem;
+    }
+
+    .project-content >div:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

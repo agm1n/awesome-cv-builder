@@ -1,0 +1,221 @@
+{
+  "fullName": "Sergey Vertinski",
+  "description": "Software developer, Team Lead, 13+ years expertise",
+  "contacts": {
+    "linkedin": "sqwertynski",
+    "facebook": "",
+    "telegram": "cv_example_by",
+    "instagram": "sqwertynski",
+    "twitter": "by_agm1n",
+    "email": "cv.example.by@gmail.com",
+    "github": "agm1n",
+    "web": "cv.example.by",
+    "phone": ""
+  },
+  "summary": [
+    "Full-stack software developer with over 13 years of experience in the web development field. I specialize in software development, IT security, and server management on cloud computing platforms",
+    "Experienced backend developer with a solid background in SQL/NoSQL databases and NodeJS/PHP development. Expertise in building scalable and high-performance systems and services to meet a wide range of business requirements",
+    "Highly skilled frontend engineer with extensive experience using JavaScript to develop interactive, user-friendly web applications with semantically correct optimized html layouts. Proficient in using modern frameworks and libraries to optimize performance and deliver top-quality products",
+    "Lead programmer and project manager with a track record of successfully integrating user and business requirements into cost-effective and secure solutions that scale and are durable. Focused on solving the most complex customer requirements, from conception to successful release",
+    "Preferred Environment: AWS, Linux, NodeJS, Typescript, React. Have a basic understanding of Next.js, Go, and Rust, don't have any commercial expertise in these areas",
+    "Hobbies: motorcycle, enduro, snowboarding, jet skiing, cooking, animal volunteering"
+  ],
+  "projects": [
+    {
+      "name": "Project under NDA",
+      "team": "10 developers",
+      "methodology": "Scrum",
+      "role": "Full-Stack Developer, Team Lead, Architect",
+      "description": "The real estate solution for signing digital protocol at handover with calculation of the cost of housing and the possibility of taking out a mortgage or loan for buying",
+      "environment": "Nodejs, React, Express, Typeorm, Redux, Typescript, Docker,  Less, Postgres, Mongo, Sentry, Jest,  Eslint, i18next, Axios, Swagger",
+      "responsibilities": [
+        "Creating platform and CI/CD implementation",
+        "Signing, mail sending, real living services and other third-party services integration for business",
+        "AWS Lambda and step functions implementation",
+        "Github actions and JIRA connect to CI/CD process",
+        "PDF generating as AWS lambda based on puppeteer and mustache libraries"
+      ],
+      "tags": [
+        "AWS",
+        "WebSockets",
+        "React",
+        "Typescript",
+        "NodeJS",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB",
+        "Express",
+        "Sentry",
+        "Jest",
+        "Git",
+        "Eslint"
+      ]
+    },
+    {
+      "name": "Twolog",
+      "team": "3 developers",
+      "methodology": "Kanban",
+      "role": "Key developer",
+      "description": "Platform for purchase of media content and chat conversations, mass promotion",
+      "environment": "React, Redux, Symfony, Docker, Sockjs, Centrifugo, Less, MariaDB",
+      "responsibilities": [
+        "Code and database optimisations on FE and BE sides",
+        "Implementation new features (inner currency, credits packages, chat tools)",
+        "CI/CD for Linode servers",
+        "Push/Email/SMS-notifications sending implementation"
+      ],
+      "tags": [
+        "Linode",
+        "WebSockets",
+        "React",
+        "Typescript",
+        "NodeJS",
+        "Docker",
+        "MariaDB",
+        "Centrifugo",
+        "Symfony",
+        "PHP",
+        "Git",
+        "Python",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Project under NDA",
+      "team": "8-10 developers",
+      "methodology": "Scrum",
+      "role": "Key developer",
+      "description": "Platform for accounting and purchases management that allows end users to track and plan products orders and gifts",
+      "environment": "React, Redux, Saga, Swagger, Sass",
+      "responsibilities": [
+        "Development of new business logic for key functionality",
+        "Development of frontend features"
+      ],
+      "tags": [
+        "React",
+        "NodeJS",
+        "Docker",
+        "PostgreSQL",
+        "Jest",
+        "Git",
+        "Eslint"
+      ]
+    },
+    {
+      "name": "Skilledbeta.com",
+      "team": "4 developers",
+      "methodology": "Kanban",
+      "role": "Full-stack developer",
+      "description": "Enterprise application that helps contractors control costs and revenue, workforce management, customer booking and inventory",
+      "environment": "AngularJS, Docker, Gulp, Cassandra, Less, NodeJS(Express), ES6, Elasticsearch, Bash, Git",
+      "responsibilities": [
+        "Design changes implementation and development of frontend features",
+        "Code optimization and refactoring",
+        "Docker containerization of project"
+      ],
+      "tags": [
+        "AngularJS",
+        "Docker",
+        "Gulp",
+        "Cassandra",
+        "Less",
+        "NodeJS",
+        "ES6",
+        "Elasticsearch",
+        "Bash",
+        "Git",
+        "Express"
+      ]
+    },
+    {
+      "name": "Project under NDA",
+      "team": "14 developers",
+      "methodology": "Kanban",
+      "role": "Full stack developer",
+      "description": "Comprehensive global financial markets analytics app",
+      "environment": "ReactJS, React Native, Redux, Yarn, Flow, ESLint, Jest, GIT, CI/CD, SQLite",
+      "responsibilities": [
+        "Design changes implementation",
+        "Huge count of API integrations",
+        "App localization (local dictionary + RTL changes)"
+      ],
+      "tags": [
+        "React",
+        "React Native",
+        "Electron",
+        "Yarn",
+        "Flow",
+        "ESLint",
+        "Jest",
+        "GIT",
+        "CI/CD",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Project under NDA",
+      "team": "4 developers",
+      "methodology": "Scrum",
+      "role": "Developer",
+      "description": "Stock exchange rates forecast web application",
+      "environment": "AngularJS, Highcharts, ChartIQ, Git",
+      "responsibilities": [
+        "Frontend development",
+        "code optimization and refactoring",
+        "complex trading components development"
+      ],
+      "tags": [
+        "AngularJS",
+        "Highcharts",
+        "ChartIQ",
+        "Git"
+      ]
+    },
+    {
+      "name": "Neklo",
+      "team": "10 developers",
+      "methodology": "Waterfall",
+      "role": "Developer",
+      "description": "Magento Extensions Store",
+      "environment": "Magento, Zend framework, Vagrant, prototype.js, HTML, CSS, jQuery",
+      "responsibilities": [
+        "Extending of the printing module ( html code for Zend_Pdf )",
+        "Security solutions for paid extensions",
+        "Creating communication between store and company blog",
+        "Implementing online style editor for a payment receipt design"
+      ],
+      "tags": [
+        "Magento",
+        "Zend framework",
+        "prototype.js",
+        "CSS",
+        "jQuery",
+        "Vagrant",
+        "Mercurial",
+        "SVN"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "key": "Languages",
+      "value": "JavaScript, TypeScript, NodeJS, PHP, Python, Bash"
+    },
+    {
+      "key": "Cloud & Data",
+      "value": "AWS, PostgreSQL, Linode, MariaDB, SQLite, SQL"
+    },
+    {
+      "key": "Frameworks & Libraries",
+      "value": "React, Express, Symfony, MaterialUI, Bootstrap, Yii2, Laravel,  TailwindCSS, Zend, Magento, AngularJS, BackboneJS, jQuery"
+    },
+    {
+      "key": "Builders & preprocessors",
+      "value": "Vite, Webpack, Pnpm, Npm, Yarn, Gulp, Babel, Sass, Less"
+    },
+    {
+      "key": "Other",
+      "value": "Git, WebSocket, PWA, HTML5&CSS3, "
+    }
+  ]
+}
