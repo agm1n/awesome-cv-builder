@@ -10,11 +10,10 @@ const Footer: React.FunctionComponent<Props> = () => {
   return (
     <section className="section footer do-not-print">
       <button id="openModal" onClick={() => setShoModal(true)}>
-        Why was this page developed?
+        Click me to show modal
       </button>
       <Modal handleClose={() => setShoModal(false)} isOpen={showModal}>
-        <>
-        </>
+        <p>Some interest info</p>
       </Modal>
     </section>
   );
