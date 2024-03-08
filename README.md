@@ -45,3 +45,13 @@ or just little scroll
   <img alt="mobile view light theme" src="https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/mobile_light.jpg" width="40%" align="left"/>
  <img alt="mobile view light theme" src="https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/mobile_dark.jpg" width="40%" align="center"/>
 </div>
+
+## 🛡️ License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing to `awesome-cv-builder`
+Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
+
+If you wish to contribute, you can work on any features. After adding your code, please send us a Pull Request.
+
+> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
