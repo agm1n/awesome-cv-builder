@@ -1,5 +1,7 @@
 # Awesome CV/Resume builder (React + TypeScript + Vite) [![wow](https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/awesome-badge.svg)](https://github.com/agm1n/awesome-cv-builder#readme)
 
+[![CV PREVIEW](https://cdn.jsdelivr.net/gh/agm1n/agm1n/media/all-in-one.jpg)](https://awesome-cv.space)
+
 Finally, a well-designed, nice-looking resume has appeared with minimal effort to change your own information for publication on your own hosting 🥳 🚀
 
 This template provides setup to get React working in Vite with HMR and some ESLint rules.
