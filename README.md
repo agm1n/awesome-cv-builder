@@ -6,7 +6,7 @@ This template provides setup to get React working in Vite with HMR and some ESLi
 
 ## Functionality:
 - awesome desktop screen layout with nice system fonts
-- search for projects from the "experience" section on the necessary technologies like [`cv.example.by?tags=nodejs,typescript`](https://cv.example.by/?tags=nodejs,typescript)
+- search for projects from the "experience" section on the necessary technologies like [`awesome-cv.space/?tags=nodejs,typescript`](https://awesome-cv.space/?tags=nodejs,typescript)
 - dark/light theme switcher + system theme detection
 - HTML meta tags generate based on your data in **cv.json** file
 - nice mobile ( `max-width: 768px`) screen layout
@@ -19,7 +19,7 @@ This template provides setup to get React working in Vite with HMR and some ESLi
 3. create build via start command `pnpm run build`
 4. enjoy results in /dist/index.html
 
-## To check results you can see on [DEMO](https://cv.example.by) page of my own CV
+## To check results you can see on [DEMO](https://awesome-cv.space) page of my own CV
 
 or just little scroll
 

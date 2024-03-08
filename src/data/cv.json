@@ -5,11 +5,11 @@
     "linkedin": "sqwertynski",
     "facebook": "",
     "telegram": "cv_example_by",
-    "instagram": "sqwertynski",
+    "instagram": "",
     "twitter": "by_agm1n",
     "email": "cv.example.by@gmail.com",
     "github": "agm1n",
-    "web": "cv.example.by",
+    "web": "awesome-cv.space",
     "phone": ""
   },
   "summary": [
@@ -30,7 +30,7 @@
       "environment": "Nodejs, React, Express, Typeorm, Redux, Typescript, Docker,  Less, Postgres, Mongo, Sentry, Jest,  Eslint, i18next, Axios, Swagger",
       "responsibilities": [
         "Creating platform and CI/CD implementation",
-        "Signing, mail sending, real living services and other third-party services integration for business",
+        "Signing, mail sending, real living services and other 3rd party API integrations for business",
         "AWS Lambda and step functions implementation",
         "Github actions and JIRA connect to CI/CD process",
         "PDF generating as AWS lambda based on puppeteer and mustache libraries"

@@ -1,6 +1,29 @@
 .footer {
+  position: relative;
+
+  @media only screen and (max-width: 768px) {
+    padding-bottom: 2rem;
+  }
+
   #openModal {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+
+    @media only screen and (max-width: 768px) {
+      border-radius: 8px;
+    }
+  }
+
+  #postScriptum {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+
+    a {
+      padding: 0.2rem;
+      text-decoration: underline;
+      color: #0070E0;
+    }
   }
 }

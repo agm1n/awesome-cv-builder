@@ -32,7 +32,7 @@ export const normalizeContactData = (
           contact.text = `t.me/${value}`;
           break;
         case 'web':
-          contact.link = `${value}`;
+          contact.link = `https://${value}`;
           contact.text = `${value}`;
           break;
         case 'facebook':
