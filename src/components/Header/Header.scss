@@ -40,6 +40,7 @@
 
   @media print {
     padding-bottom: 0.2rem;
+    padding-top: 2rem;
     .subtitle {
       margin: 0;
     }
@@ -105,5 +106,21 @@
     -moz-user-select: none;
     -ms-user-select: none;
   }
-}
 
+  select {
+    color: inherit;
+    outline: 0;
+    background-color: inherit;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: white;
+    background-color: var(--var-button-bgcolor);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 1rem 0;
+    line-height: 1rem;
+  }
+}

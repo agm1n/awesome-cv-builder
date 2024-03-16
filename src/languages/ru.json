@@ -1,0 +1,17 @@
+{
+  "common": {
+    "aboutMe": "Обо мне",
+    "somePerson": "Кое-кто",
+    "printCV": "Печать",
+    "skills": "Навыки",
+    "description": "Описание",
+    "environment": "Окружение",
+    "responsibilities": "Обязанности",
+    "experience": "Последний опыт"
+  },
+  "footer": {
+    "modalButtonTitle": "Зачем эта страница была сделана",
+    "pageDescription":  "этот сайт сделан на основе",
+    "pageDescriptionLinkText":  "собственной библиотеки"
+  }
+}
