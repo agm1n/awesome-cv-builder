@@ -1,3 +1,11 @@
+export interface CVJSONType {
+  locales: {
+    en: PersonInfoType;
+    ru: PersonInfoType;
+    [key: string]: PersonInfoType;
+  };
+}
+
 export interface ContactsType {
   linkedin: string;
   facebook: string;
@@ -9,11 +17,13 @@ export interface ContactsType {
   web: string;
   phone: string;
 }
+
 export interface NormalizesContactItemType {
   link: string;
   text: string;
   icon: JSX.Element;
 }
+
 export interface ProjectType {
   name: string;
   team?: string;
@@ -24,10 +34,12 @@ export interface ProjectType {
   responsibilities: string[];
   tags: string[];
 }
+
 export interface SkillType {
   key: string;
   value: string;
 }
+
 export interface PersonInfoType {
   fullName?: string;
   description?: string;

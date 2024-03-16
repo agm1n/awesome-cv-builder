@@ -26,7 +26,7 @@ const Modal: React.FunctionComponent<Props> = ({
       document.body.style.overflow = 'auto';
       document.body.removeEventListener('keydown', closeOnEscapeKey);
     };
-  }, [isOpen]);
+  }, [isOpen, handleClose]);
 
   return !isOpen ? null : (
     <div className="modal do-not-print">

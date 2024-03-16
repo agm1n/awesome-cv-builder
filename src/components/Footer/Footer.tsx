@@ -1,18 +1,20 @@
 import * as React from 'react';
-import {useState} from 'react';
+import {useContext, useState} from 'react';
 import 'src/components/Footer/Footer.scss';
 import Modal from 'src/components/Modal/Modal';
 import {Link} from "react-router-dom";
+import {LanguageContext} from "src/context/LanguageContext";
 
 interface Props {
 }
 
 const Footer: React.FunctionComponent<Props> = () => {
     const [showModal, setShoModal] = useState<boolean>(false);
+  const { t } = useContext(LanguageContext);
     return (
         <section className="section footer do-not-print">
             <button id="openModal" onClick={() => setShoModal(true)}>
-                Click me to show modal
+              {t('footer.modalButtonTitle')}
             </button>
             <Modal handleClose={() => setShoModal(false)} isOpen={showModal}>
                 <p>Some interest info</p>

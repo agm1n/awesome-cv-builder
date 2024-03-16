@@ -19,7 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./"
   },
   "include": ["src"],

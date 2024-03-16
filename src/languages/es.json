@@ -1,0 +1,17 @@
+{
+  "common": {
+    "aboutMe": "Sobre mí",
+    "somePerson": "Alguna persona",
+    "printCV": "Imprimir CV",
+    "skills": "Habilidades",
+    "description": "Descripción",
+    "environment": "Entorno",
+    "responsibilities": "Responsabilidades",
+    "experience": "Experiencia reciente"
+  },
+  "footer": {
+    "modalButtonTitle": "¿Por qué se desarrolló esta página?",
+    "pageDescription":  "esta página basada en",
+    "pageDescriptionLinkText":  "biblioteca propia"
+  }
+}

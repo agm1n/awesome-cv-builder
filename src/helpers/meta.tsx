@@ -9,5 +9,6 @@ export const generateMetaTags = (data: {
   const metaKeysArr = Object.keys(meta).map((metaKey, i) => (
     <meta name={metaKey} content={meta[metaKey]} key={`meta_tag_${i}`} />
   ));
+
   return [<title>{title}</title>, ...metaKeysArr];
 };
