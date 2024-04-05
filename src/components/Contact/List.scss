@@ -46,6 +46,10 @@
       &:nth-child(odd) {
         margin-right: 20%;
       }
+
+      a {
+        display: inline;
+      }
     }
   }
 }
